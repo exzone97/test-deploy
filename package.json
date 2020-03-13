@@ -2,7 +2,7 @@
   "name": "test-deploy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://exzone97.github.io/test-deploy",
+  "homepage": "https://exzone97.github.io/test-deploy",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
